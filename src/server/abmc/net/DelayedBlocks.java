@@ -65,7 +65,7 @@ public class DelayedBlocks extends JavaPlugin implements Listener {
                 if (hand.getType().toString().equalsIgnoreCase("FLINT_AND_STEEL") && !e.getPlayer().isOp()) {
                     if (igniteCounter.get(e.getPlayer().getName()) == null) {
                         igniteCounter.put(e.getPlayer().getName(), 1);
-                    } else if (igniteCounter.get(e.getPlayer().getName()) >= 10) {
+                    } else if (igniteCounter.get(e.getPlayer().getName()) >= 15) {
                         e.getPlayer().getInventory().setItemInMainHand(null);
                         e.setCancelled(true);
                         igniteCounter.put(e.getPlayer().getName(), 0);
