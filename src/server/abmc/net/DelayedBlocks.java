@@ -127,16 +127,3 @@ public class DelayedBlocks extends JavaPlugin implements Listener {
 
 }
 
-//@EventHandler(priority=EventPriority.HIGHEST)
-	//public void dSword(PlayerItemDamageEvent e){
- 
-		//ItemStack hand = e.getPlayer().getInventory().getItemInMainHand();
-	//	short durability = hand.getDurability(); 
-		//if (hand.getType().toString().equalsIgnoreCase("DIAMOND_SWORD")) { 
-      	//	hand.setDurability((short)(durability + 5));
-   //   		e.setCancelled(false);
-      		         
-         
-  //    }
- // }
-
