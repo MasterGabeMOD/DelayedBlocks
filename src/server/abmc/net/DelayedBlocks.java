@@ -105,7 +105,7 @@ public class DelayedBlocks extends JavaPlugin implements Listener {
 				e.getBlock().setType(Material.AIR);
                 e.getBlock().getWorld().playEffect(e.getBlock().getLocation(), org.bukkit.Effect.STEP_SOUND, 49);
             }
-        }, 60 * 25);
+        }, 60 * 20);
 			}
 }
 
